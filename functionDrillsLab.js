@@ -108,8 +108,8 @@ function add(number1, number2) {
 
   return stringNumber1 + stringNumber2;
 }
-let sum = add(5,12);
-console.log(sum);
+// let sum = add(5,12);
+// console.log(sum);
 
 ////////////////// PROBLEM 7 ////////////////////
 
