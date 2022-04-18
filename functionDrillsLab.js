@@ -146,6 +146,9 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
+const exclaimThree = str => { return str.toUpperCase() + '!!!'}
+
+console.log(exclaimThree("hello"));
 
 
 ////////////////// PROBLEM 9 ////////////////////
