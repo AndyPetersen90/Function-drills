@@ -122,9 +122,7 @@ const exclaim = function(str) {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
-// declaration
-// expression
+// *** expression ***
 
 
 
@@ -140,8 +138,6 @@ const exclaimTwo = str => {
 }
 
 // arrow
-// declaration
-// expression
 
 /*
   Rewrite exclaimTwo to be a single line.
