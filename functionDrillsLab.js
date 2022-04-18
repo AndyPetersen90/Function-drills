@@ -176,6 +176,22 @@ function exclaimFour(str) {
 
 //CODE HERE
 
+function nameCheck(name) {
+  let verifyname = String(name);
+  let stevenName = "Steven";
+  let bryanName = "Bryan";
+  if (verifyname === stevenName) {
+    console.log ("What is up Steven?");
+  } else if(verifyname === bryanName){
+    console.log("Hey Bryan");
+  } else {
+    console.log(`Cool name ${verifyname}`);
+  }
+}
+
+// let nameGreeting = nameCheck('Bryan');
+// let nameGreeting = nameCheck('Steven');
+// let nameGreeting = nameCheck('Jeddy');
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
