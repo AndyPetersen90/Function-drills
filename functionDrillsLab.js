@@ -205,6 +205,25 @@ function nameCheck(name) {
 
 //CODE HERE
 
+function faveColorFinder(color) {
+  let redFave = "Red";
+  let greenFave = "Green";
+  let blackFave = "Black"
+  if (color === redFave){
+    console.log("Red is a great color.");
+  } else if (color === greenFave){
+    console.log("Green is a solid favorite color.");
+  } else if (color === blackFave) {
+    console.log("So trendy.");
+  } else {
+    console.log("You need to evaluate your favorite color choice.");
+  }
+}
+
+// let colorRating = faveColorFinder("Red");
+// let colorRating = faveColorFinder("Green");
+// let colorRating = faveColorFinder("Black");
+let colorRating = faveColorFinder("Purple");
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
