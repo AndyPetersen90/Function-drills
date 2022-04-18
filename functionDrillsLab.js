@@ -278,7 +278,7 @@ function thatsOdd(number) {
 
 const bestMovie = (movie) => {console.log(`${movie} is the best movie ever!`)};
 
-bestMovie("Finding Nemo");
+// bestMovie("Finding Nemo");
 
 
 ////////////////// PROBLEM 15 ////////////////////
@@ -294,6 +294,19 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 
 //CODE HERE
 
+function bigOrSmall(arr) {
+  let answers = [];
+  for (i = 0; i < arr.length; i++) {
+    if( arr[i] > 100) {
+      answers.push("big");
+    } else if (arr[i] <= 100){
+      answers.push("small");
+    };
+  };
+  return answers;
+};
+let arrayEvaluator = bigOrSmall(bigOrSmallArray);
+console.log(arrayEvaluator);
 
 ////////////////// PROBLEM 16 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
