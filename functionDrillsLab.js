@@ -370,24 +370,44 @@ function emailCheck(email){
   }
 }
 
-emailCheck(" fespetersen1990@gmail.com")
+// emailCheck(" fespetersen1990@gmail.com")
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
-  Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs you were able to purchase.
-  Create a variable called `totalFrogs` and set it equal to your function invoked, passing in the amount of gold you are willing to spend.
+  Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible 
+  with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, 
+  which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs 
+  you were able to purchase.
+  Create a variable called `totalFrogs` and set it equal to your function invoked, passing in the amount of gold 
+  you are willing to spend.
 */
 
 //CODE HERE
 
+// function whatEverIBelieveToBeAppropriate(gold){
+//   let numberFrogs = gold / 3;
+//   console.log(numberFrogs); 
+// };
+
+// let totalFrogs = whatEverIBelieveToBeAppropriate(32)
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
-  You might have noticed a slight bug in the previous problem. If you were to pass in 4 gold, the function would return to you 1.3333... However, you can't really go to a store and by 1.333 products. You would just be able to purchase 1 product. Re-write the function you used in the previous problem (give it the same name, just add a 2 to the end of it) that fixes this bug. Invoke the function and store the returned value to a variable called `totalFrogs2`.
+  You might have noticed a slight bug in the previous problem. If you were to pass in 4 gold, 
+  the function would return to you 1.3333... However, you can't really go to a store and by 1.333 products. 
+  You would just be able to purchase 1 product. Re-write the function you used in the previous problem 
+  (give it the same name, just add a 2 to the end of it) that fixes this bug. 
+  Invoke the function and store the returned value to a variable called `totalFrogs2`.
 */
 
 //CODE HERE
 
+function whatEverIBelieveToBeAppropriate2(gold2){
+  let numberFrogs2 = Math.floor(gold2 / 3);
+  console.log(numberFrogs2); 
+};
+
+let totalFrogs2 = whatEverIBelieveToBeAppropriate2(32)
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
