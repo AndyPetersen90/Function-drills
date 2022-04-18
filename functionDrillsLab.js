@@ -223,7 +223,7 @@ function faveColorFinder(color) {
 // let colorRating = faveColorFinder("Red");
 // let colorRating = faveColorFinder("Green");
 // let colorRating = faveColorFinder("Black");
-let colorRating = faveColorFinder("Purple");
+// let colorRating = faveColorFinder("Purple");
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -235,6 +235,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
+function printAllNames(namesArr) {
+  for(i = 0; i < namesArr.length; i++){
+    console.log(namesArr[i]);
+  };
+
+};
+
+// printAllNames(namesArr);
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
