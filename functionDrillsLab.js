@@ -90,7 +90,7 @@ const compareNums = (num1, num2) => {
   };
 };
 
-compareNums(5, 5);
+// compareNums(5, 5);
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -102,6 +102,14 @@ compareNums(5, 5);
 
 //CODE HERE
 
+function add(number1, number2) {
+  let stringNumber1 = Number(number1);
+  let stringNumber2 = Number(number2);
+
+  return stringNumber1 + stringNumber2;
+}
+let sum = add(5,12);
+console.log(sum);
 
 ////////////////// PROBLEM 7 ////////////////////
 
