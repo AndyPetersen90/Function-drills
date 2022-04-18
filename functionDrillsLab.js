@@ -329,8 +329,8 @@ function theEliminator(contestants, loser){
   return contestants;
 }
 
-let newContestants = theEliminator(contestants, loser);
-console.log(newContestants);
+// let newContestants = theEliminator(contestants, loser);
+// console.log(newContestants);
 
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -340,6 +340,11 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+
+function upper(aString) {
+  console.log(aString.toUpperCase());
+}
+upper("Hi, my name is Kylo");
 
 
 ////////////////// PROBLEM 18 ////////////////////
