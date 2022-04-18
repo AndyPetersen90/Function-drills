@@ -262,7 +262,7 @@ function thatsOdd(number) {
   };
 };
 
-let oddChecker = thatsOdd(5)
+// let oddChecker = thatsOdd(5)
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -275,6 +275,10 @@ let oddChecker = thatsOdd(5)
 */
 
 //CODE HERE
+
+const bestMovie = (movie) => {console.log(`${movie} is the best movie ever!`)};
+
+bestMovie("Finding Nemo");
 
 
 ////////////////// PROBLEM 15 ////////////////////
