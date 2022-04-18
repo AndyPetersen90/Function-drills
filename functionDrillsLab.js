@@ -45,7 +45,7 @@ function printName(person1) {
   console.log(person1);
 };
 
-printName("Cameron");
+// printName("Cameron");
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -60,6 +60,12 @@ printName("Cameron");
 
 //CODE HERE
 
+function greeting(name) {
+  let personName = String(name);
+  console.log(`Hello ${personName}!`);
+};
+
+// greeting("Jeddy");
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -74,6 +80,17 @@ printName("Cameron");
 
 //CODE HERE
 
+const compareNums = (num1, num2) => {
+  if (num1 > num2){
+    console.log(num1);
+  } else if (num1 < num2){
+    console.log (num2);
+  } else if (num1 === num2) {
+    console.log(`${num1} and ${num2} are the same numbers.`);
+  };
+};
+
+compareNums(5, 5);
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
